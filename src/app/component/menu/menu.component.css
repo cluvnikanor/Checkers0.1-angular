@@ -1,0 +1,18 @@
+div{
+    height: 100%;
+    background-color: silver;
+    text-align: center;
+    font-family: 'Gill Sans';
+  }
+a {
+    font-size: large;
+    color: blue;
+    display: block;
+    text-decoration:dashed;
+}
+
+
+.router-link-active{
+  font-size: x-large;
+  color: palevioletred;
+}
