@@ -1,0 +1,33 @@
+section{
+    height: 100%;
+    border: 1px solid white;
+    background-color:silver; 
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 7% 86% 7%;
+    grid-template-columns: repeat(12,1fr);
+ 
+  }
+     
+  
+  header{
+    grid-column: span 12;
+    border: 1px solid blue;
+  }
+  
+  aside{
+    grid-column: span 2;
+    border: 1px solid blue;
+  }
+  
+  main{
+    grid-column: span 10;
+    border: 1px solid blue;
+  }
+  
+  footer{
+    grid-column: span 12;
+    border: 1px solid blue;
+  }
+  
