@@ -10,10 +10,19 @@ import { BoardService } from 'src/app/services/board.service';
 })
 export class HomeComponent implements OnInit {
   checkersStatus: CheckersStatus;
-  board: string[][];
+  board: string[][] = new Array(8);
   whiteTurn: boolean;
   startFilled: boolean;
-  glow: boolean[][];
+  glow: boolean[][] = [
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false],
+    [false, false, false, false, false, false, false, false]
+  ];
 
   blackImg = "assets/img/black_circle.png";
   blackKingImg = "assets/img/black_king.png";

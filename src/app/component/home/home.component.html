@@ -14,8 +14,8 @@
                 <button type="button" class="mybotton_white"></button>
 
                 <button type="button" class="mybotton_black" [ngClass]="{'glowing':glow[0][1]}"
-                        (click)="this.boardClick(0, 1)">
-                        <img src="{{this.pieceImg(board[0][1])}}" />
+                        (click)="boardClick(0, 1)">
+                        <img src="{{pieceImg(board[0][1])}}" />
                 </button>
 
                 <button type="button" class="mybotton_white"></button>
@@ -181,7 +181,7 @@
                 <button type="button" class="mybotton_white"></button>
 
                 <button type="button" class="mybotton_black" [ngClass]="{'glowing':glow[7][6]}"
-                        (click)="this.boardClick(7, 6)"><img src="{{this.pieceImg(board[7][6])}}" /></button>
+                        (click)="boardClick(7, 6)"><img src="{{pieceImg(board[7][6])}}" /></button>
 
                 <button type="button" class="mybotton_white"></button>
 
